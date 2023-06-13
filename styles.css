@@ -1,3 +1,7 @@
+:root {
+  --card-container-gap: 10px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -72,10 +76,11 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: var(--card-container-gap);
 }
 
 .project-card {
-  flex: 0 0 calc(50% - 10px);
+  flex: 0 0 calc(50% - var(--card-container-gap));
   background-color: #2f2f2f;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -125,10 +130,11 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: var(--card-container-gap);
 }
 
 .experience-card {
-  flex: 0 0 calc(50% - 10px);
+  flex: 0 0 calc(50% - var(--card-container-gap));
   background-color: #2f2f2f;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -238,4 +244,10 @@ section {
 
 .contact-list a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .experience-card, .project-card {
+    flex: 0 0 100%;
+  }
 }
