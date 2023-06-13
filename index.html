@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Pedro - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .profile-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    .profile-name {
+      font-size: 32px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .profile-role {
+      font-size: 20px;
+      font-weight: normal;
+      color: #AAA;
+      margin-top: 5px;
+    }
+
+    .profile-location {
+      font-size: 18px;
+      color: #AAA;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="body-overlay"></div>
+  <div class="container">
+    <div class="main-content">
+      <section class="profile-section">
+        <img src="assets/profile.png" alt="Profile Image" class="profile-image">
+        <h1 class="profile-name">👨‍💻 José Pedro</h1>
+        <p class="profile-role">Fullstack Developer</p>
+        <p class="profile-location">Crato, CE - Brazil</p>
+      </section>
+
+      <section>
+        <h2>📝 About Me</h2>
+        <p class="justified text">
+          Hello, I'm José Pedro! 🫶
+          <br>
+          I'm an IT student with a passion for web development.
+          I specialize in frameworks like Ruby on Rails, Django, Flask, FastAPI, and React.
+          I'm a self-taught and communicative individual who is always eager to learn and explore new technologies.
+          Currently pursuing a degree in Information Systems at Ceará Federal Institute. 😵‍💫
+        </p>
+      </section>
+
+      <section class="contact-section">
+        <h2>📞 Contact Me</h2>
+        <p class="text">
+          Feel free to reach out to me if you have any inquiries or opportunities. You can contact me through the following methods:
+        </p>
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:josepedro@example.com">
+              <i class="fas fa-envelope"></i>
+              Email
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/oopaze/" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/oopaze" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i>
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://www.josepedro.com" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-globe"></i>
+              Website
+            </a>
+          </li>
+        </ul>
+
+      </section>
+
+      <section>
+        <h2>👨‍💼 Job Experiences</h2>
+
+        <div class="experience-card-container">
+          <div class="experience-card">
+            <h3 class="experience-card-title">Fullstack Developer</h3>
+            <p class="experience-card-company">Fetchly Labs (July 2022 till now)</p>
+            <p>
+              With expertise in Python (Django, Flask) and Ruby (Rails) for backend development, as well as JavaScript/TypeScript and React for frontend, I specialize in seamlessly integrating these components for effective collaboration.
+            </p>
+            <div class="experience-card-skills">
+              <div class="experience-card-skill">
+                  <i class="fab fa-python experience-card-skill-icon" style="color: #3776AB;"></i>
+                  Django
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fas fa-gem experience-card-skill-icon" style="color: #CC0000;"></i>
+                  Rails
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-react experience-card-skill-icon" style="color: #61DAFB;"></i>
+                  React
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fas fa-database experience-card-skill-icon" style="color: #336791;"></i>
+                  Postgres
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-js-square experience-card-skill-icon" style="color: #007ACC;"></i>
+                  Typescript
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <h3 class="experience-card-title">Fullstack Developer</h3>
+            <p class="experience-card-company">ByCoders Tecnologia LTDA (November 2021 till July 2022)</p>
+            <p>
+              I was responsible for developing backend applications using the main Python stack for the web, including Django, Flask, and FastAPI. I also handled the development of frontend applications using Typescript and React.
+            </p>
+            <div class="experience-card-skills">
+              <div class="experience-card-skill">
+                  <i class="fab fa-python experience-card-skill-icon" style="color: #3776AB;"></i>
+                  Django
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-react experience-card-skill-icon" style="color: #61dafb;"></i>
+                  React
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-js-square experience-card-skill-icon" style="color: #007ACC;"></i>
+                  Typescript
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-react experience-card-skill-icon" style="color: #61dafb;"></i>
+                  Jest
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fas fa-code experience-card-skill-icon" style="color: #2b5797;"></i>
+                  Strapi
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <h3 class="experience-card-title">Fullstack Developer</h3>
+            <p class="experience-card-company">Geobite (November 2021 till July 2022)</p>
+            <p>
+              Implemented backend functionalities and developed APIs using Python and Django. Collaborated with the
+              frontend team to integrate API endpoints and ensure smooth communication between frontend and backend.
+            </p>
+            <div class="experience-card-skills">
+              <div class="experience-card-skill">
+                  <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                  Python
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                  Django
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-html5 experience-card-skill-icon" style="color: #e44d26;"></i>
+                  HTML
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-css3-alt experience-card-skill-icon" style="color: #2965f1;"></i>
+                  CSS
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-bootstrap experience-card-skill-icon" style="color: #563d7c;"></i>
+                  Bootstrap
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fab fa-js-square experience-card-skill-icon" style="color: #f7df1e;"></i>
+                  jQuery
+              </div>
+              <div class="experience-card-skill">
+                  <i class="fas fa-database experience-card-skill-icon" style="color: #336791;"></i>
+                  Postgres
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section>
+        <h2>🚀 Projects</h2>
+
+        <div class="project-card-container">
+          <a href="http://maria-pitanga.herokuapp.com/" target="_blank" class="project-card">
+            <div>
+              <h3 class="project-card-title">
+                <i class="fas fa-ice-cream project-card-icon" style="color: #FFC947;"></i>
+                Maria Pitanga
+              </h3>
+              <p class="project-card-description">A digital restaurant application that makes the clients be able to order by their homes.</p>
+              <div class="experience-card-skills">
+                <div class="experience-card-skill">
+                    <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                    Flask
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fab fa-react experience-card-skill-icon" style="color: #61dafb;"></i>
+                    React
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fab fa-js-square experience-card-skill-icon" style="color: #f7df1e;"></i>
+                    Typescript
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fab fa-google experience-card-skill-icon" style="color: #4285F4;"></i>
+                    Google
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fas fa-cloud experience-card-skill-icon" style="color: #6762A6;"></i>
+                    Heroku
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/MichaelPereira31/be-the-hero-frontend/tree/development" target="_blank" class="project-card">
+            <div>
+              <h3 class="project-card-title">
+                <i class="fas fa-user-shield hero-icon" style="color: #FFD700;"></i>
+                Be The Hero
+              </h3>
+              <p class="project-card-description">A plataform connect ongs with voluntaries across the world.</p>
+              <div class="experience-card-skills">
+                <div class="experience-card-skill">
+                  <i class="fab fa-js-square experience-card-skill-icon" style="color: #f7df1e;"></i>
+                  Javascript
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fab fa-react experience-card-skill-icon" style="color: #61dafb;"></i>
+                    React
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fab fa-react experience-card-skill-icon" style="color: #61dafb;"></i>
+                  React Native
+                </div>
+                  <div class="experience-card-skill">
+                    <i class="fab fa-node-js experience-card-skill-icon" style="color: #43853D;"></i>
+                    Express
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fas fa-database experience-card-skill-icon" style="color: #336791;"></i>
+                    Postgres
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fab fa-trello experience-card-skill-icon" style="color: #0079BF;"></i>
+                    Trello
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://oopaze.github.io/esportes-and-trends" target="_blank" class="project-card">
+            <div>
+              <h3 class="project-card-title">
+                <i class="fas fa-futbol sports-icon" style="color: #FF4500;"></i>
+                Esportes and Trends
+              </h3>
+              <p class="project-card-description">A website to show the twitter trands by country and the matches of brasilian soccer championship.</p>
+              <div class="experience-card-skills">
+                <div class="experience-card-skill">
+                    <i class="fab fa-react experience-card-skill-icon" style="color: #61dafb;"></i>
+                    React
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fab fa-js-square experience-card-skill-icon" style="color: #f7df1e;"></i>
+                    Typescript
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fab fa-twitter experience-card-skill-icon" style="color: #1DA1F2;"></i>
+                  Twitter
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fab fa-github experience-card-skill-icon" style="color: #181717;"></i>
+                    GitHub
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/oopaze/algoritmos" target="_blank" class="project-card">
+            <div>
+              <h3 class="project-card-title">
+                <i class="fas fa-code algorithm-icon" style="color: #007ACC;"></i>
+                Algorithms
+              </h3>
+              <p class="project-card-description">Just some algorithms coded in python and java.</p>
+              <div class="experience-card-skills">
+                <div class="experience-card-skill">
+                  <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                  Python
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fab fa-java experience-card-skill-icon" style="color: #007396;"></i>
+                  Java
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://oopaze.github.io/esportes-and-trends" target="_blank" class="project-card">
+            <div>
+              <h3 class="project-card-title">
+                <i class="fas fa-file-invoice-dollar bill-icon" style="color: #008000;"></i>
+                Contas Organizer
+              </h3>
+              <p class="project-card-description">A desktop app to organize my money and control my credit cards .</p>
+              <div class="experience-card-skills">
+                <div class="experience-card-skill">
+                  <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                  Python
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                  Django
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                  Tkinter
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fab fa-github experience-card-skill-icon" style="color: #181717;"></i>
+                    GitHub
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/oopaze/Portifolio" target="_blank" class="project-card">
+            <div>
+              <h3 class="project-card-title">
+                <i class="fas fa-briefcase portfolio-icon" style="color: #555555;"></i>
+                Portfolio V1
+              </h3>
+              <p class="project-card-description">A simple portfolio to expose my career.</p>
+              <div class="experience-card-skills">
+                <div class="experience-card-skill">
+                    <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                    Django
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fas fa-cloud experience-card-skill-icon" style="color: #6762A6;"></i>
+                    Heroku
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fab fa-html5 experience-card-skill-icon" style="color: #e44d26;"></i>
+                  HTML
+                </div>
+                <div class="experience-card-skill">
+                    <i class="fab fa-css3-alt experience-card-skill-icon" style="color: #2965f1;"></i>
+                    CSS
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fas fa-database experience-card-skill-icon" style="color: #336791;"></i>
+                  Postgres
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/oopaze/PyPix" target="_blank" class="project-card">
+            <div>
+              <h3 class="project-card-title">
+                <i class="fas fa-cogs api-icon" style="color: #6C757D;"></i>
+                PyPix API
+              </h3>
+              <p class="project-card-description">A api that simulates how Brazilian Pix Transfer works.</p>
+              <div class="experience-card-skills">
+                <div class="experience-card-skill">
+                    <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                    Django
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fas fa-database experience-card-skill-icon" style="color: #336791;"></i>
+                  Postgres
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://josepedrofotografias.herokuapp.com/" target="_blank" class="project-card">
+            <div>
+              <h3 class="project-card-title">
+                <i class="fas fa-camera photographer-icon" style="color: #FFD700;"></i>
+                Jose Pedro Fotografias
+              </h3>
+              <p class="project-card-description">A virtual gallery to manage his pictures and expose his work the world.</p>
+              <div class="experience-card-skills">
+                <div class="experience-card-skill">
+                    <i class="fab fa-python experience-card-skill-icon" style="color: #3776ab;"></i>
+                    Django
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fas fa-database experience-card-skill-icon" style="color: #336791;"></i>
+                  Postgres
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fab fa-react experience-card-skill-icon" style="color: #61dafb;"></i>
+                  React
+                </div>
+                <div class="experience-card-skill">
+                  <i class="fas fa-cloud experience-card-skill-icon" style="color: #6762A6;"></i>
+                  Heroku
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
