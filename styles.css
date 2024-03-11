@@ -172,7 +172,7 @@ section {
   font-size: 14px;
 }
 
-.experience-card-skill-icon {
+.experience-card-skill-icon,  .experience-card-skill i {
   font-size: 12px;
   margin-right: 4px;
 }
@@ -227,6 +227,11 @@ section {
   color: #1da1f2;
 }
 
+
+.contact-list li i.fa-whatsapp {
+  color: #4eea65;
+}
+
 .contact-list li {
   display: inline-flex;
   align-items: center;
@@ -238,6 +243,11 @@ section {
 }
 
 .contact-list a {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
   color: #ffffff;
   text-decoration: none;
 }
