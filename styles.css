@@ -256,6 +256,96 @@ section {
   text-decoration: underline;
 }
 
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.profile-role {
+  font-size: 20px;
+  font-weight: normal;
+  color: #AAA;
+  margin-top: 5px;
+}
+
+.profile-location {
+  font-size: 18px;
+  color: #AAA;
+  margin-top: 5px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.skill-category {
+  flex: 1 1 200px;
+  min-width: 220px;
+  background-color: #2f2f2f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category-title {
+  font-size: 20px;
+  color: #e0e0e0;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.skill-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.skill-icon {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.skill-item:hover {
+  color: #f7df1e; 
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+  }
+
+  .skill-category {
+    flex: 1 1 100%;
+  }
+}
+
 @media (max-width: 1024px) {
   .experience-card, .project-card {
     flex: 0 0 100%;
